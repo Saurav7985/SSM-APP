@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "binjwa",
+    "slug": "SSM-APP",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/logo.png",
+    "scheme": "ssmapp",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "icon": "./assets/logo.png"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff",
+        "foregroundImage": "./assets/logo.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.binjwa.ai"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/logo.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#208AEF",
+          "image": "./assets/logo.png",
+          "imageWidth": 76
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "12bec949-aae8-445e-80fe-6ce1b9919a13"
+      }
+    }
+  }
+}

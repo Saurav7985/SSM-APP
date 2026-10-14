@@ -1,0 +1,53 @@
+import { ContentPost } from '../types/content';
+
+export const MOCK_POSTS: ContentPost[] = [
+  {
+    id: '1',
+    title: 'Welcome to binj.AI',
+    caption: 'We are thrilled to launch our new AI-powered platform today! Join us in revolutionizing social media.',
+    mediaType: 'image',
+    platforms: ['instagram', 'facebook', 'linkedin'],
+    status: 'published',
+    createdAt: '2026-08-10T10:00:00Z',
+    updatedAt: '2026-08-10T10:05:00Z',
+  },
+  {
+    id: '2',
+    title: 'Top 5 Tips for Social Growth',
+    caption: 'Are you struggling to grow your audience? Here are 5 actionable tips you can apply right now! 🚀',
+    mediaType: 'reel',
+    platforms: ['instagram', 'tiktok', 'youtube'],
+    status: 'scheduled',
+    createdAt: '2026-08-15T14:30:00Z',
+    updatedAt: '2026-08-15T15:00:00Z',
+    scheduledAt: '2026-08-25T18:00:00Z',
+  },
+  {
+    id: '3',
+    caption: 'Just testing some new AI generation features...',
+    platforms: ['twitter'],
+    status: 'draft',
+    createdAt: '2026-08-19T09:15:00Z',
+    updatedAt: '2026-08-20T10:00:00Z',
+  },
+  {
+    id: '4',
+    title: 'Case Study: 300% Engagement Increase',
+    caption: 'See how one of our clients tripled their engagement using our automated scheduling system.',
+    mediaType: 'image',
+    platforms: ['linkedin', 'facebook'],
+    status: 'scheduled',
+    createdAt: '2026-08-18T11:20:00Z',
+    updatedAt: '2026-08-18T11:45:00Z',
+    scheduledAt: '2026-08-22T08:00:00Z',
+  },
+  {
+    id: '5',
+    caption: 'Happy Friday everyone! What are you building this weekend?',
+    mediaType: 'image',
+    platforms: ['instagram', 'twitter', 'threads'],
+    status: 'published',
+    createdAt: '2026-08-14T08:00:00Z',
+    updatedAt: '2026-08-14T08:00:00Z',
+  },
+];
